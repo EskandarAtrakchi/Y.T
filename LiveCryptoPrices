@@ -1,1 +1,19 @@
-
+<!DOCTYPE HTML><!-- This file uses HTML5-->
+		<html>
+			<head>
+			<title>Live prices made by Eskandar</title>
+			
+			</head>
+				<body>
+			<script>!function(){var e=document.getElementsByTagName("script"),
+				t=e[e.length-1],n=document.createElement("script");
+				 function r(){var e=crCryptocoinPriceWidget.init({base:"USD,EUR",items:"BTC,ETH,XRP,XLM",
+				 backgroundColor:"E0E0D9",streaming:"1",rounded:"1",boxShadow:"9",border:"5"});
+					t.parentNode.insertBefore(e,t)}n.
+					src="https://co-in.io/widget/pricelist.js?items=BTC%2CETH%2CLTC%2CXMR%2CDASH",
+					n.async=!0,n.readyState?n.onreadystatechange=function(){"loaded"!=n.readyState&&
+					"complete"!=n.readyState||(n.onreadystatechange=null,r())}:n.onload=function()
+					{r()},t.parentNode.insertBefore(n,null)}();
+						</script>
+							</body>
+								</html>
