@@ -1,5 +1,5 @@
 		
-		<!DOCTYPE HTML><!-- This file uses HTML5-->
+		<!DOCTYPE HTML>
 		<html>
 			<head>
 			<title>Live prices made by Eskandar Atrakchi</title>
@@ -15,6 +15,7 @@
             }
 			</style>
 				<body>
+			<!-- https://co-in.io/crypto-price-widget/-->
 			<script>!function(){var e=document.getElementsByTagName("script"),
 				t=e[e.length-1],n=document.createElement("script");
 				 function r(){var e=crCryptocoinPriceWidget.init({base:"USD,EUR,IQD,EGP",items:"PRQ,GLQ,BTC,ETH,XRP,LTC,MCONTENT,BNB,ADA,SOL,AVAX,LUNA,DOT,DOGE,SHIB,CROATOM,LINK,TRX,NEAR,BCH,XLM,FTM,UNI,HBAR,MANA,SAND,ICP,CELR,VET,XMR,GRT,HNT,CAKE,ONE,ENJ,KSM,BAT,MINA,ZIL,KEEP",backgroundColor:"E0E0D9",streaming:"1",rounded:"1",boxShadow:"9",border:"5"});
