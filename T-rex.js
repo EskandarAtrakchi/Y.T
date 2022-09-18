@@ -1,3 +1,14 @@
+/*
+الكود
+Runner.prototype.gameOver = function (){}
+
+بهذا الكود تتحكم في قفزة الديناصور
+Runner.instance_.tRex.setJumpVelocity(100)
+
+بهذا الكود تتحكم في سرعة الديناصور
+Runner.instance_.setSpeed(1000)
+
+*/
 function magic(){
  var rCanvas = document.getElementsByClassName("runner-canvas")[0];
  var runnerCanvasContext = rCanvas.getContext('2d');
