@@ -1,12 +1,13 @@
 /*
-الكود
-Runner.prototype.gameOver = function (){}
+Runner.prototype.gameOver = function (){}//set the function to do nothing 
+Runner.instance_.setSpeed(1000);//setSpeed by changing the number between the brackets
+Runner.instance_.tRex.setJumpVelocity(100);//set the jump by changing the number between the brackets 
 
-بهذا الكود تتحكم في قفزة الديناصور
-Runner.instance_.tRex.setJumpVelocity(100)
+//register the Score after setting the function to do noting 
 
-بهذا الكود تتحكم في سرعة الديناصور
-Runner.instance_.setSpeed(1000)
+var backToLife = Runner.prototype.gameOver; //backToLife is variable to hold the gameOver function
+Runner.prototype.gameOver = function (){} //make the gameOver function to do nothing 
+Runner.prototype.gameOver = backToLife; //set back the gameOver function to where it was 
 
 */
 function followMeForMore(){
