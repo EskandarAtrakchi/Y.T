@@ -11,12 +11,12 @@ Runner.prototype.gameOver = backToLife; //set back the gameOver function to wher
 
 */
 function followMeForMore(){
- var rCanvas = document.getElementsByClassName("runner-canvas")[0];
- var runnerCanvasContext = rCanvas.getContext('2d');
- var objXYZ = runnerCanvasContext.getImageData(rCanvas.width/8.002, 
-rCanvas.height - rCanvas.height/2.51, rCanvas.width/7, rCanvas.height/5.01);
+ var xCanvas = document.getElementsByClassName("runner-canvas")[0];
+ var runnexCanvasContext = xCanvas.getContext('2d');
+ var objXY = runnexCanvasContext.getImageData(xCanvas.width/8.002, 
+xCanvas.height - xCanvas.height/2.51, xCanvas.width/7, xCanvas.height/5.01);
  var jumpFlag = false;
- var MovingInstance = objXYZ.data;
+ var MovingInstance = objXY.data;
  for (var i = 0, n = MovingInstance.length; i < n; i += 4) {
   if(MovingInstance[i]>0||MovingInstance[i+1]>0||MovingInstance[i+2]>0){
    jumpFlag = true;
