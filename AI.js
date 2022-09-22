@@ -1,20 +1,9 @@
-/*
-Runner.prototype.gameOver = function (){}//set the function to do nothing 
-Runner.instance_.setSpeed(1000);//setSpeed by changing the number between the brackets
-Runner.instance_.tRex.setJumpVelocity(100);//set the jump by changing the number between the brackets 
 
-//register the Score after setting the function to do noting 
-
-var backToLife = Runner.prototype.gameOver; //backToLife is variable to hold the gameOver function
-Runner.prototype.gameOver = function (){} //make the gameOver function to do nothing 
-Runner.prototype.gameOver = backToLife; //set back the gameOver function to where it was 
-
-*/
 function followMeForMore(){
  var xCanvas = document.getElementsByClassName("runner-canvas")[0];
  var runnexCanvasContext = xCanvas.getContext('2d');
  var objXY = runnexCanvasContext.getImageData(xCanvas.width/8.002, 
-xCanvas.height - xCanvas.height/2.51, xCanvas.width/7, xCanvas.height/5.01);
+    xCanvas.height - xCanvas.height/2.51, xCanvas.width/7, xCanvas.height/5.01);
  var jumpFlag = false;
  var MovingInstance = objXY.data;
  for (var i = 0, n = MovingInstance.length; i < n; i += 4) {
