@@ -1,5 +1,6 @@
 //American Standard Code for Information Interchange (ASCII)
 //this code was made by Eskandar Atrakchi
+
 import java.util.Scanner;
  
 class Micc {
@@ -17,7 +18,7 @@ class Micc {
 		System.out.println("Select number 1 to choose an Alphabet\nor number 2 to exit");
 
 		while(true) {
-			try {
+			try {//This might needed to be moved somewhere else 
 				int x = y.nextInt();
 				System.out.println("Please confirm your number again ");
 			}
