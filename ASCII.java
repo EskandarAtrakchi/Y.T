@@ -1,9 +1,11 @@
 //American Standard Code for Information Interchange (ASCII)
-//this code was made by Eskandar Atrakchi
+/*
+*@EskandarAtrakchi
+*/
 
 import java.util.Scanner;
  
-class Micc {
+class Micc1 {
 	static String struserInput;
 
 	public static void main(String[] args) {
@@ -18,12 +20,13 @@ class Micc {
 		System.out.println("Select number 1 to choose an Alphabet\nor number 2 to exit");
 
 		while(true) {
+			
 			try {//This might needed to be moved somewhere else 
-				int x = y.nextInt();
-				System.out.println("Please confirm your number again ");
+				
+				
 			}
 			catch (Exception e) {
-				System.out.println("Something went wrong! please, choose again ");actual();
+				System.out.println("Something went wrong! please, choose again ");
 			}
 			int x = y.nextInt();
 			switch(x) {
@@ -50,32 +53,3 @@ class Micc {
 		System.out.println("Wrong input!");
 	}
 }
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
