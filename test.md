@@ -1,7 +1,3 @@
-Certainly! You can use **JAX-RS** to create a RESTful web service that handles CRUD operations (Create, Read, Update, Delete) for employee data.
-
-Here's how you can set this up using **JAX-RS** for a RESTful API, with operations mapped to HTTP methods (`GET`, `POST`, `PUT`, `DELETE`). We'll create an API where:
-
 - `GET /employees/{id}` retrieves a specific employee.
 - `POST /employees` creates a new employee.
 - `PUT /employees/{id}` updates an existing employee.
@@ -282,10 +278,3 @@ public class DeleteEmployeeClient {
     }
 }
 ```
-
-### Conclusion:
-This setup implements a **RESTful service** using **JAX-RS** that allows for CRUD operations (GET, POST, PUT, DELETE
-
-) on employee data. The client-side uses HTTP requests to interact with the REST API.
-
-Would you like further customization or clarification on any part of this?
