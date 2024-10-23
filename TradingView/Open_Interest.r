@@ -2,7 +2,7 @@
 // © LeviathanCapital
 
 //@version=5
- 
+
 indicator("Open Interest Suite [Aggregated] - By Leviathan", format = format.volume)
 
 g1 = 'General'
@@ -35,7 +35,7 @@ dwoicol     = input.color(#fe5f6d, '', inline = 'lod', group = g2)
 col_cha     = input.bool(false, 'Color Chart Bars', group = g2)
 col_bg      = input.bool(false, 'Color Background', group = g2)
 show_thresh = input.bool(false, 'Show Thresholds', group = g2)
- 
+
 // User Inputs - Additional Settings
 show_ema  = input.bool(false, 'OI EMA', group = g3, inline = 'ema')
 ema_len   = input.int(50, '', group = g3, inline = 'ema')
