@@ -1,12 +1,5 @@
 # Combining the Open Interest Delta (OI Delta) with the MACD (Moving Average Convergence Divergence) indicators:
 
-1. **OI Delta**: Gives you insights into the flow of new or closed positions (long or short) in the market. It tells you whether new money is entering (positive OI delta) or leaving (negative OI delta) the market, and you can interpret it based on price action (rising or falling price).
-
-2. **MACD**: A momentum indicator that helps identify trends and potential reversals. The MACD line crossing above the signal line typically suggests bullish momentum, while crossing below it suggests bearish momentum.
-
-### How to Combine OI Delta and MACD:
-By combining these two indicators, you can gain insights into both market participation (via OI delta) and momentum (via MACD). Here's how to interpret their interaction:
-
 ### 1. **MACD Bullish Crossover + Positive OI Delta**:
    - **Indicates**: A strong bullish signal.
    - **Explanation**: When the MACD crosses above the signal line, it shows that momentum is shifting upward. If this is coupled with positive OI delta, it indicates that traders are opening new long positions, reinforcing the bullish trend.
