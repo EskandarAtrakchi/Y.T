@@ -21,7 +21,7 @@ plt.xlabel("Date")
 plt.ylabel("Price")
 plt.legend()
 plt.show()
-
+ 
 # Preprocessing Data
 scaler = MinMaxScaler(feature_range=(0, 1))
 scaled_data = scaler.fit_transform(data)
